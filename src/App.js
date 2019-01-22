@@ -4,8 +4,6 @@ import "semantic-ui-css/semantic.min.css";
 import HomePage from "./components/pages/HomePage";
 import LoginPage from "./components/pages/LoginPage";
 
-import "./App.css";
-
 export default () => (
   <div className="ui container">
     <Route path="/" exact component={HomePage} />

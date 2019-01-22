@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension";
 
-import "./index.css";
+// import "./index.css";
 import App from "./App";
 import rootReducer from "./rootReducer";
 import * as serviceWorker from "./serviceWorker";
